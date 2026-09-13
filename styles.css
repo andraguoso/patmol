@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --color-lima: #f8faff;
+    --color-marine: #273171;
+}
