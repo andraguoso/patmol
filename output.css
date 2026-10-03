@@ -167,14 +167,29 @@
   .m-0 {
     margin: 0px;
   }
+  .m-5 {
+    margin: calc(var(--spacing) * 5);
+  }
   .m-10 {
     margin: calc(var(--spacing) * 10);
   }
   .flex {
     display: flex;
   }
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
+  }
+  .w-2\/3 {
+    width: calc(2 / 3 * 100%);
+  }
+  .w-2\/5 {
+    width: calc(2 / 5 * 100%);
+  }
+  .w-3\/5 {
+    width: calc(3 / 5 * 100%);
   }
   .w-48 {
     width: calc(var(--spacing) * 48);
