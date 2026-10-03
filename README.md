@@ -1,2 +1,4 @@
-# PATMOL 🔬
-PATMOL es una empresa dedicada al estudio histopatológico de las alteraciones estructurales y funcionales de tejidos con fines de diagnóstico y de investigación.
+# 🔬 PATMOL Website
+PATMOL is an enterprise dedicated to the histopathological study of structural and functional tissue alterations with diagnosis and research motives.
+## Features
+* **Complaints Book:** Form retrieving personal information alongside the user's inquiry or complaint.
