@@ -18,6 +18,44 @@
             <a>Contacto</a>
         </div>
     </nav>
+    <article>
+        <span class="bg-lima w-full m-10">Reclamos</span>
+        <div>
+            <form class="flex flex-col w-2/5 m-10 gap-5">
+                <div class="flex flex-row">
+                    <div class="flex flex-col">
+                        <label>Nombre</label>
+                        <input type="text" id="nombres" name="nombre">
+                    </div>
+                    <div class="flex flex-col">
+                        <label>Apellido</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <label>Correo electrónico </label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="flex flex-col">
+                    <label for="reclamo">Reclamo </label>
+                    <input type="text" id="reclamo" name="reclamo" class="">
+                </div>
+
+                <input type="submit" value="Enviar" class="bg-marine text-white">
+            </form>
+        </div>
+    </article>
+    <footer>
+        <div class="flex flex-col items-center">
+            <img class="w-80" src="assets/patmol_icon.png">
+            <nav class="flex flex-row items-center gap-5">
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>LinkedIn</a>
+            </nav>
+        </div>
+        <span class="w-full flex justify-center bg-marine text-white">Copyright © 2026 PATMOL</span>
+    </footer>
 </body>
 
 </html>
