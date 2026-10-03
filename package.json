@@ -20,6 +20,7 @@
   "homepage": "https://github.com/andraguoso/patmol#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
+    "@vercel/analytics": "^2.0.1",
     "tailwindcss": "^4.3.3"
   }
 }
