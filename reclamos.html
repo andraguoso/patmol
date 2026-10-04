@@ -19,26 +19,26 @@
         </div>
     </nav>
     <article>
-        <span class="bg-lima w-full m-10">Reclamos</span>
+        <span class="bg-lima w-full m-10 text-5xl">Reclamos</span>
         <div>
             <form class="flex flex-col w-2/5 m-10 gap-5">
-                <div class="flex flex-row">
+                <div class="flex flex-row gap-3 md:gap-5">
                     <div class="flex flex-col">
                         <label>Nombre</label>
-                        <input type="text" id="nombres" name="nombre">
+                        <input type="text" id="nombres" name="nombre" class="border">
                     </div>
                     <div class="flex flex-col">
                         <label>Apellido</label>
-                        <input type="text" id="apellido" name="apellido">
+                        <input type="text" id="apellido" name="apellido" class="border">
                     </div>
                 </div>
                 <div class="flex flex-col">
                     <label>Correo electrónico </label>
-                    <input type="email" id="correo" name="correo" required>
+                    <input type="email" id="correo" name="correo" required class="border">
                 </div>
                 <div class="flex flex-col">
                     <label for="reclamo">Reclamo </label>
-                    <input type="text" id="reclamo" name="reclamo" class="">
+                    <input type="text" id="reclamo" name="reclamo" class="h-64 border">
                 </div>
 
                 <input type="submit" value="Enviar" class="bg-marine text-white">
