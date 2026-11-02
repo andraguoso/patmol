@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PATMOL | Libro de Reclamaciones</title>
+    <title>Libro de Reclamaciones - PATMOL</title>
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="m-0">
+<body class="flex flex-col m-0 min-h-screen">
     <nav class="flex flex-row items-center m-10">
         <a href="index.html"><img class="w-48" src="assets/patmol_icon.png"></a>
         <div class="flex md:flex-row justify-end gap-8 flex-1">
@@ -18,10 +18,10 @@
             <a>Contacto</a>
         </div>
     </nav>
-    <article>
-        <span class="bg-lima w-full m-10 text-5xl">Reclamos</span>
+    <article class="flex flex-col flex-1 gap-10">
+        <span class="bg-lima w-full px-10 py-5 text-[5.5vh]">Reclamos</span>
         <div>
-            <form class="flex flex-col w-2/5 m-10 gap-5">
+            <form class="flex flex-col w-2/5 m-5 gap-5">
                 <div class="flex flex-row gap-3 md:gap-5">
                     <div class="flex flex-col">
                         <label>Nombre</label>
@@ -38,23 +38,32 @@
                 </div>
                 <div class="flex flex-col">
                     <label for="reclamo">Reclamo </label>
-                    <input type="text" id="reclamo" name="reclamo" class="h-64 border">
+                    <textarea class="h-64 border p-2">Quiero señalar que al momento de atenderme...</textarea>
                 </div>
 
                 <input type="submit" value="Enviar" class="bg-marine text-white">
             </form>
         </div>
     </article>
-    <footer>
+    <footer class="flex flex-col gap-5 items-center w-full justify-center">
         <div class="flex flex-col items-center">
             <img class="w-80" src="assets/patmol_icon.png">
-            <nav class="flex flex-row items-center gap-5">
-                <a>Facebook</a>
-                <a>Twitter</a>
-                <a>LinkedIn</a>
+            <nav class="flex flex-row font-bold justify-center items-center gap-5">
+                <a>
+                    <!--<img class="h-5" src="assets/facebook.svg">-->
+                    Facebook
+                </a>
+                <a>
+                    <!--<img class="h-5" src="assets/instagram.svg">-->
+                    Instagram
+                </a>
+                <a>
+                    <!--<img class="h-5" src="assets/linkedin.svg">-->
+                    LinkedIn
+                </a>
             </nav>
         </div>
-        <span class="w-full flex justify-center bg-marine text-white">Copyright © 2026 PATMOL</span>
+        <span class="w-full flex justify-center bg-marine text-white p-5">Copyright © 2026 PATMOL</span>
     </footer>
 </body>
 
